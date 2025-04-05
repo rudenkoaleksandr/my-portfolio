@@ -10,6 +10,50 @@
 </head>
 
 <body>
+    <style>
+        .cc {
+            position: fixed;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 100%;
+            z-index: 999;
+        }
+
+        .cc-content {
+            position: relative;
+            max-width: 500px;
+            padding: 50px;
+            background-color: #ffffff;
+            color: #000;
+            border: 1px solid #999;
+            border-radius: 20px;
+        }
+
+        .close-cc {
+            position: absolute;
+            font-size: 25px;
+            top: 15px;
+            right: 25px;
+            color: #000;
+            cursor: pointer;
+        }
+
+        .cc a {
+            color: rgb(50, 50, 255);
+        }
+    </style>
+    <div class="cc">
+        <div class="cc-content">
+            <div onclick="document.querySelectorAll('.cc').forEach(el => el.style.display = 'none')" class="close-cc">×</div>
+            💡 This mockup is a template designed by Jayesh Patil and available on Figma under CC BY. I used it
+            without modification to demonstrate layout in HTML, CSS, and JS.<br><br>
+            <a
+                href="https://www.figma.com/community/file/1299737213921915682/portfolio-product-designer-portfolio-website">👉
+                Go to original template</a>
+        </div>
+    </div>
     <header class="header">
         <svg width="432" height="86" viewBox="0 0 432 86" fill="none" xmlns="http://www.w3.org/2000/svg">
             <rect x="40" y="20" width="46" height="46" rx="23" fill="#FD853A" />

@@ -133,6 +133,9 @@ body {
   border-radius: 20px;
   transition: transform 0.3s;
 }
+.product-card:hover {
+  transform: scale(1.025);
+}
 .product-card-top {
   display: flex;
   padding: 40px 37px 20px;
